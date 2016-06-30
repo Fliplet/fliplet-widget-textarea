@@ -1,0 +1,29 @@
+* {
+  box-sizing:border-box;
+  outline:0
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+.trumbowyg-box, .trumbowyg-editor {
+  margin: 0;
+}
+
+footer {
+  background-color: #FFF;
+}
+
+.button {
+  display: inline-block;
+  margin: 20px;
+  text-decoration: none;
+  background-color: #4A9CD7;
+  color: #FFF;
+  padding: 8px 10px;
+  border-radius: 4px;
+}

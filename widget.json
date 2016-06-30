@@ -1,0 +1,26 @@
+{
+  "name": "Textarea",
+  "package": "com.fliplet.textarea",
+  "version": "1.0.0",
+  "icon": "img/icon.png",
+  "interface": {
+    "dependencies": [
+      "fliplet-core:1.0"
+    ],
+    "assets": [
+      "vendor/trumbowyg.min.css",
+      "vendor/trumbowyg.min.js",
+      "css/interface.css",
+      "js/interface.js"
+    ]
+  },
+  "build": {
+    "dependencies": [
+      "jquery",
+      "bootstrap"
+    ],
+    "assets": [
+      "css/build.css"
+    ]
+  }
+}
