@@ -13,8 +13,11 @@ $ npm install fliplet-cli -g
 ---
 
 
-Run for development:
+Clone and run for development:
 
 ```
+$ git clone https://github.com/WebooOnline/fliplet-widget-textarea.git
+$ cd fliplet-widget-textarea
+
 $ fliplet run-widget
 ```
