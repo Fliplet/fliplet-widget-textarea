@@ -17,10 +17,10 @@ $(document).ready(function() {
   $('.button').click(function (event) {
     event.preventDefault();
 
-    Fliplet.saveWidgetData({
+    Fliplet.Widget.save({
       text: $editor.trumbowyg('html')
     }).then(function () {
-      Fliplet.complete();
+      Fliplet.Widget.complete();
     });
   });
 });
