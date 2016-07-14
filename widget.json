@@ -15,9 +15,7 @@
     ]
   },
   "build": {
-    "dependencies": [
-      "bootstrap"
-    ],
+    "dependencies": [],
     "assets": []
   }
 }
